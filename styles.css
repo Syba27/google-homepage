@@ -26,7 +26,11 @@ nav {
 }
 
 footer {
+    margin: 675px 0;
+    height: 125px;
     background: whitesmoke;
+    color: gray;
+    font-size: 14px;
 }
 
 button {
@@ -45,4 +49,46 @@ button {
 #google-search {
     position: fixed;
     margin: 350px 750px;
+}
+
+#gmail {
+    position: fixed;
+    margin: 0 1500px;
+}
+
+#images {
+    position: fixed;
+    margin: 0 1560px;
+}
+
+.footer-button {
+    display: inline;
+    margin: 0;
+    padding: 10px;
+}
+
+#location {
+    padding: 10px;
+    margin: 0px;
+}
+
+hr {
+    height: 1px;
+    background: whitesmoke;
+    color: gray;
+}
+
+#privacy {
+    position: fixed;
+    margin: 0 1300px;
+}
+
+#terms {
+    position: fixed;
+    margin: 0 1360px;
+}
+
+#settings {
+    position: fixed;
+    margin: 0 1420px;
 }
