@@ -1,0 +1,48 @@
+nav {
+    background: white;
+    margin: 20px;
+    font-size: 12px;
+}
+
+.header-button {
+    display: inline;
+    margin: 0;
+    padding: 10px;
+}
+
+#logo {
+    position: fixed;
+    margin: 100px 800px;
+}
+#search-bar {
+    position: fixed;
+    margin: 250px 650px;
+    border-radius: 30px;
+    border-width: 2px;
+    width: 550px;
+    height: 40px;
+    border-color: whitesmoke;
+    font-size: 15px;
+}
+
+footer {
+    background: whitesmoke;
+}
+
+button {
+    width: 140px;
+    height: 35px;
+    font-size: 13px;
+    color:rgb(71, 71, 71);
+    background: rgb(226, 225, 225);
+}
+
+#im-feeling-lucky {
+    position: fixed;
+    margin: 350px 950px;
+}
+
+#google-search {
+    position: fixed;
+    margin: 350px 750px;
+}
