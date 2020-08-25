@@ -1,22 +1,38 @@
 nav {
     background: white;
     margin: 20px;
-    font-size: 12px;
+    padding-top: 5px;
+    font-size: 14px;
 }
 
 .header-button {
+    text-decoration: none;
     display: inline;
     margin: 0;
     padding: 10px;
+    color: black;
 }
 
-#logo {
-    position: fixed;
-    margin: 100px 800px;
+.header-button:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+#apps {
+    background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+    background-size: 528px 68px;
+    background-position: -132px -38px;
+}
+
+#logo-wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    margin-top: 100px;
 }
 #search-bar {
-    position: fixed;
-    margin: 250px 650px;
     border-radius: 30px;
     border-width: 2px;
     width: 550px;
@@ -25,8 +41,19 @@ nav {
     font-size: 15px;
 }
 
+#search-bar-wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    margin-top: 100px;
+}
+
 footer {
-    margin: 675px 0;
+    margin: auto;
+    resize: both;
+    margin-top: 200px;
     height: 125px;
     width: 2000px;
     background: whitesmoke;
@@ -40,16 +67,16 @@ button {
     font-size: 13px;
     color:rgb(71, 71, 71);
     background: rgb(226, 225, 225);
+    margin: 15px;
 }
 
-#im-feeling-lucky {
-    position: fixed;
-    margin: 350px 950px;
-}
-
-#google-search {
-    position: fixed;
-    margin: 350px 750px;
+#button-wrapper {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    resize: both;
+    margin-top: 70px;
 }
 
 #gmail {
@@ -63,14 +90,20 @@ button {
 }
 
 .footer-button {
+    text-decoration: none;
     display: inline;
-    margin: 0;
+    position: fixed;
+    margin: 0px;
     padding: 10px;
 }
 
+.footer-button:hover {
+    text-decoration: underline;
+    color: black;
+}
+
 #location {
-    padding: 10px;
-    margin: 0px;
+    margin-left: 20px;
 }
 
 hr {
@@ -79,21 +112,36 @@ hr {
     color: gray;
 }
 
+#advertising {
+    margin-left: 20px;
+}
+
+#business {
+    margin-left: 120px;
+}
+
+#how-search-works {
+    margin-left: 220px;
+}
+
 #privacy {
-    position: fixed;
-    margin: 0 1300px;
+    margin-left: 1500px;
 }
 
 #terms {
-    position: fixed;
-    margin: 0 1360px;
+    margin-left: 1580px;
 }
 
 #settings {
-    position: fixed;
-    margin: 0 1420px;
+    margin-left: 1660px;
 }
 
 body {
     position: fixed;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black
 }
