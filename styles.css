@@ -28,6 +28,7 @@ nav {
 footer {
     margin: 675px 0;
     height: 125px;
+    width: 2000px;
     background: whitesmoke;
     color: gray;
     font-size: 14px;
@@ -91,4 +92,8 @@ hr {
 #settings {
     position: fixed;
     margin: 0 1420px;
+}
+
+body {
+    position: fixed;
 }
