@@ -59,6 +59,11 @@ footer {
     background: whitesmoke;
     color: gray;
     font-size: 14px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
 button {
@@ -113,32 +118,32 @@ hr {
 }
 
 #advertising {
-    margin-left: 20px;
+    left: 20px;
 }
 
 #business {
-    margin-left: 120px;
+    left: 120px;
 }
 
 #how-search-works {
-    margin-left: 220px;
+    left: 220px;
 }
 
 #privacy {
-    margin-left: 1500px;
+    right: 320px;
 }
 
 #terms {
-    margin-left: 1580px;
+    right: 220px;
 }
 
 #settings {
-    margin-left: 1660px;
+    right: 120px;
 }
 
 body {
-    position: fixed;
     font-family: "Roboto", sans-serif;
+    margin-bottom: 125px;
 }
 
 a {
