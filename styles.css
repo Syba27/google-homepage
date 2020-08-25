@@ -37,9 +37,18 @@ nav {
 .header-button {
     text-decoration: none;
     display: inline;
+    position: fixed;
     margin: 0;
     padding: 10px;
     color: black;
+}
+
+#about {
+    left: 30px;
+}
+
+#store {
+    left: 100px;
 }
 
 #gmail {
@@ -47,7 +56,7 @@ nav {
 }
 
 #images {
-    right: 120px;
+    right: 140px;
 }
 
 #logo-wrapper {
