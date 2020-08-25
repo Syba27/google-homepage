@@ -5,4 +5,4 @@ Basic HTML structure
 Including CSS styling
 Adding links where approriate
 Make a basic form
-Adding an imaage onto the website
+Adding an image onto the website
